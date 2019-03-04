@@ -1,5 +1,30 @@
 import React, { Component } from 'react';
 import './App.css';
+
+
+
+
+
+
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+
+      </div>
+    );
+  }
+}
+
+export default App;
+{/*
+import ParentComp from "./components/ParentComp";
+import PureComp from "./components/PureComponent";
+import Table from "./components/Table";
+import FragmentDemo from "./components/FragmentDemo";
+import LifeCycleA from "./components/LifeCycleA";
+import Form from "./components/Form";
 import Counter from "./components/Counter";
 import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
@@ -14,16 +39,15 @@ import styles from './appStyles.module.css';
 import './appStyles.css'
 import StyleSheets from "./components/StyleSheets";
 import Inline from "./components/Inline";
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
           <h1 className={styles.sucess}>Success</h1>
-          <h1 className='error'>Error</h1>
-
-          {/* <StyleSheets/>
+          <h1 className='error'>Error</h1><StyleSheets/>
         <Inline/>
+        <Table/>
+        <PureComp/>
+          <ParentComp/>
+          <FragmentDemo/>
+          <LifeCycleA/>
+        <Form/>
          <ListName/>
 
         <UserGreeting/>
@@ -46,9 +70,3 @@ class App extends Component {
         <Message/>
         <Welcome name = "azam"> </Welcome>
         <Counter />*/}
-      </div>
-    );
-  }
-}
-
-export default App;
