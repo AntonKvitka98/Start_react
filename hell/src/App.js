@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
-
-
+import FocusInput from "./components/FocusInput";
 
 
 
@@ -11,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
+         <FocusInput/>
       </div>
     );
   }
@@ -19,6 +17,7 @@ class App extends Component {
 
 export default App;
 {/*
+import RefsDemo from "./components/RefsDemo";
 import ParentComp from "./components/ParentComp";
 import PureComp from "./components/PureComponent";
 import Table from "./components/Table";
@@ -43,6 +42,8 @@ import Inline from "./components/Inline";
           <h1 className='error'>Error</h1><StyleSheets/>
         <Inline/>
         <Table/>
+        <Input/>
+        <RefsDemo/>
         <PureComp/>
           <ParentComp/>
           <FragmentDemo/>
